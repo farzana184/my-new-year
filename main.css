@@ -1,0 +1,321 @@
+.header{
+    position: relative;
+    text-align: center;
+    
+}
+.header-text{
+   position: absolute;
+   width: 525px;
+   height: 228px;
+   top: 216px;
+   left: 845px;
+   color: #151414;
+   font-weight: 700;
+   text-align: right;
+   font-size: 65px;
+}
+
+.header-para{
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    color: #444343;
+    font-weight: 400;
+    text-align: right;
+    font-size: 16px;
+
+}
+.btn{
+
+position: absolute;
+left:  335px;
+top: 80px;
+height: 64px;
+width: 160px;
+font-weight: 600;
+font-size: 20px;
+border: 0;
+color: #FFFFFF;
+background: #FD6E0A;
+border: none;
+
+}
+
+.picture-section{
+    position: absolute;
+    width: 1072px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+padding: 0%;
+margin: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture-section .right-section .para-section-header{
+
+    width: 288px;
+    height: 94px;
+    left: 1000px;
+    top: 1200px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.right-section{
+    padding-top: 200px;
+    padding-left: 200px;
+}
+
+.picture-section .right-section .para-section-desc{
+width: 416px;
+height: 104px;
+left: 876px;
+top: 1300px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #444343;
+padding-bottom: 0;
+}
+
+.picture-section .right-section .items{
+
+color: #444343;
+
+}
+
+li{
+    list-style: none;
+}
+li::before{
+    content: "	\2713";
+    color: rgb(10, 230, 10);
+}
+
+.my-section{
+   
+    position: absolute;
+    width: 1141px;
+    height: 299.96px;
+    left: 230px;
+    top: 1792.3px;
+
+
+}
+
+.my-section .header{
+    
+    width: 179px;
+    height: 47px;
+    left: 450px;
+    top: 80px;
+    text-align: center;    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    
+      
+}
+
+.icon-class{
+    display: flex;
+    /* below will put gap between all 4 */
+    gap: 80px;
+   padding-top: 100px;
+   padding-left: 30px;
+
+}
+
+
+.skill{
+    /* below 3 got from figma */
+    background-color: #FFFFFF;
+   
+
+    padding: 30px;
+}
+
+.skill-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-desc{
+    color: #757575;
+}
+
+
+.gradiant-sec{
+    position: absolute;
+    width: 1140px;
+height: 300px;
+left: 200px;
+top: 2216.3px;
+
+background-image:
+ linear-gradient(90deg,
+  #a28c83 0%, rgba(241, 91, 34, 0) 100%)
+;
+background-size: 100%;
+}
+
+.image-text{
+    position: absolute;
+   
+width: 459px;
+height: 59px;
+left: 64px;
+top: 10px;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: white;
+
+}
+.btn2{
+    position: absolute;
+    height: 50px;  
+    left: 64px;
+    top: 180px;
+    width: 100px;
+    
+font-weight: 600;
+font-size: 20px;
+border: 0;
+color: #FFFFFF;
+background: #FD6E0A;
+border: none;
+}
+
+.bottom-sec{
+display: flex;
+position: absolute;
+width: 1600px;
+height: 577px;
+left: 0px;
+top: 2646.3px;
+
+background-color: #444343;
+
+}
+
+.First-section{
+    padding-left: 230px;
+    padding-right: 20%;
+}
+
+.bottom-sec .second-section{
+    padding-left: 0px;
+    
+   
+}
+  
+    
+
+.head{
+    
+    width: 148px;
+    height: 53px;
+    left: 230px;
+    top: 2776.3px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    color: #F8F8F8;
+}
+.para{
+    width: 485px;
+    height: 78px;
+    left: 230px;
+    top: 2845.3px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+    
+
+}
+
+.email{
+    width: 184px;
+height: 26px;
+left: 230px;
+top: 2947.3px;
+
+color: #FFFFFF;
+}
+.phone{
+    width: 184px;
+    height: 26px;
+    left: 230px;
+    top: 2947.3px;
+    
+    color: #FFFFFF;
+}
+
+
+.ic{
+    padding-top: 20px;
+    width: 150px;    
+}
+
+input{
+    height: 40px;
+    width: 100pz;
+}
+.h2{
+    width: 123px;
+height: 29px;
+
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
+
+
+
+
+.btn-cls{
+    padding-top: 30px;
+}
+
+ .btn4{
+  
+height: 40px;
+width: 170px;
+font-weight: 600;
+font-size: 20px;
+border: 0;
+color: #FFFFFF;
+background: #FD6E0A;
+border: none;
+
+}
